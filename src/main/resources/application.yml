@@ -1,0 +1,11 @@
+server:
+  port: 9090
+
+graphql:
+  packages:
+    - "io.gorillas.delivery.model"
+    - "io.gorillas.delivery.query"
+    - "io.gorillas.delivery.mutation"
+
+custom.config:
+  db.file: "deliveries.json"
